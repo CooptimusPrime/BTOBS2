@@ -1,0 +1,147 @@
+fileFormatVersion: 2
+<<<<<<<< Updated upstream:Assets/KriptoFX/Realistic Effects Pack v4/Effects/Models/SphereHalfLowPoly2.FBX.meta
+guid: 3d0ae6759dd6ee746b6b91669c15cb60
+timeCreated: 1542068699
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: GeoSphere001
+    100004: GeoSphere002(center pivot)
+    100006: GeoSphere002(top pivot)
+    400000: //RootNode
+    400002: GeoSphere001
+    400004: GeoSphere002(center pivot)
+    400006: GeoSphere002(top pivot)
+    2300000: //RootNode
+    2300002: GeoSphere001
+    2300004: GeoSphere002(center pivot)
+    2300006: GeoSphere002(top pivot)
+    3300000: //RootNode
+    3300002: GeoSphere001
+    3300004: GeoSphere002(center pivot)
+    3300006: GeoSphere002(top pivot)
+    4300000: GeoSphere001
+    4300002: GeoSphere002(top pivot)
+    4300004: GeoSphere002(center pivot)
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+========
+guid: 7469d4eaf5d47b246b3501c892dd5292
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    400000: //RootNode
+    2100000: MetalTrim
+    2100002: Light
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: SmallLight
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light
+    second: {fileID: 2100000, guid: 7fbd2c9f61df27244a153d2a0e349889, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MetalTrim
+    second: {fileID: 2100000, guid: 6f0dfd65f2b9f3841ae8217291bd7fa6, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
+>>>>>>>> Stashed changes:Assets/UnityTechnologies/ParticlePack/Shared/Environment/Models/SmallLight.fbx.meta
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+<<<<<<<< Updated upstream:Assets/KriptoFX/Realistic Effects Pack v4/Effects/Models/SphereHalfLowPoly2.FBX.meta
+    importBlendShapes: 1
+========
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+>>>>>>>> Stashed changes:Assets/UnityTechnologies/ParticlePack/Shared/Environment/Models/SmallLight.fbx.meta
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+<<<<<<<< Updated upstream:Assets/KriptoFX/Realistic Effects Pack v4/Effects/Models/SphereHalfLowPoly2.FBX.meta
+========
+    preserveHierarchy: 0
+    indexFormat: 0
+>>>>>>>> Stashed changes:Assets/UnityTechnologies/ParticlePack/Shared/Environment/Models/SmallLight.fbx.meta
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+<<<<<<<< Updated upstream:Assets/KriptoFX/Realistic Effects Pack v4/Effects/Models/SphereHalfLowPoly2.FBX.meta
+========
+    normalCalculationMode: 4
+>>>>>>>> Stashed changes:Assets/UnityTechnologies/ParticlePack/Shared/Environment/Models/SmallLight.fbx.meta
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+<<<<<<<< Updated upstream:Assets/KriptoFX/Realistic Effects Pack v4/Effects/Models/SphereHalfLowPoly2.FBX.meta
+  animationType: 2
+========
+  animationType: 0
+>>>>>>>> Stashed changes:Assets/UnityTechnologies/ParticlePack/Shared/Environment/Models/SmallLight.fbx.meta
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
