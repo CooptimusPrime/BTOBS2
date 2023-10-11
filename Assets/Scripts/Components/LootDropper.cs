@@ -2,23 +2,34 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//want to add support for specific loot tables and also needs the ability to change loot and the chances
 public class LootDropper : MonoBehaviour
-{
-    public int LootChance;
-    public int Score;
+{   
+    float lootchance;
+    int score=0;
 
     GameManager GM;
     PickupManager PM;
+    EnemyManager EM;
+    Stats stats;
 
-	private void Start()
+	void Start()
 	{
-		GM=FindFirstObjectByType<GameManager>();
+		GM = FindFirstObjectByType<GameManager>();
+        PM = FindFirstObjectByType<PickupManager>();
+        EM = FindFirstObjectByType<EnemyManager>();
+        stats = GetComponent<Stats>();
+        lootchance = stats.GetFloat("lootchance");
+        score = stats.GetInt("score");
 	}
 
 	public void DropLoot()
     {
-        GM.AddScore(Score);
-        PM.SpawnPickup(LootChance, transform.position);
-        gameObject.SetActive(false);
+        GM.AddScore(score);
+        PM.SpawnPickup(lootchance, transform.position);
+        if (GetComponent<Enemy>())
+            EM.Deactivate(gameObject);
+        else
+            gameObject.SetActive(false);
     }
 }

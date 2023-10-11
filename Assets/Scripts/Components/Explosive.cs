@@ -2,15 +2,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Need to update this to be customizable 
+//Combine Explosive and Explosion -- Explosion should just be the visuals
+
 public class Explosive : MonoBehaviour
 {
     [SerializeField] static int range = 2;
     public int damage;
-    [SerializeField] GameObject Explosion;
+    GameObject explosion;
 
-    public void Explode(int damage)
+	public void Explode(GameObject source, int damage)
     {
-        GameObject inst=Instantiate(Explosion,transform.position,Quaternion.identity);
+        GameObject inst=Instantiate(explosion,transform.position,Quaternion.identity);
+        inst.GetComponent<Explosion>().source = source;
         inst.GetComponent<Explosion>().dmg = damage;
+    }
+
+    public void SetExplosionPrefab(GameObject prefab)
+    {
+        explosion = prefab;
     }
 }

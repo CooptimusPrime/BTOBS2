@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5ced765177412e4d8d9a000345c948e, type: 3}
+  m_Name: Key
+  m_EditorClassIdentifier: 
+  intstrength: 0
+  maxhealth: 5
+  duration: 0
+  floatstrength: 0
+  lifespan: 999
+  isinvincible: 1
+  deathprefab: {fileID: 0}
+  hit: {fileID: 0}
+  death: {fileID: 0}
+  pickedup: {fileID: 8300000, guid: 6d2f4687ee65cfb489f21e423ddfc48c, type: 3}

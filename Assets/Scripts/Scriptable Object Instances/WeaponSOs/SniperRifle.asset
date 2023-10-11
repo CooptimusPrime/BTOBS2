@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f3370c883b46a848897639e1f199224, type: 3}
+  m_Name: SniperRifle
+  m_EditorClassIdentifier: 
+  damage: 15
+  clip: 1
+  maxammo: 20
+  consumption: 1
+  firemode: 1
+  burst: 1
+  type: 1
+  element: 0
+  piercing: 0
+  bulletspeed: 25
+  firerate: 0
+  range: 60
+  reloadtime: 5
+  accuracy: 0
+  accuracy2: 0
+  stability: 0
+  stability2: 0
+  homing: 0
+  canfire: 1
+  isexplosive: 0
+  primaryprefab: {fileID: 6604500054282855950, guid: 01f3bb8d35b65aa44b7b7dd2689b0f2b, type: 3}
+  altprefab: {fileID: 0}
+  explosionprefab: {fileID: 0}
+  fire: {fileID: 8300000, guid: 3f73fcb3d8c595441a1d99f4ea2e77e2, type: 3}
+  reload: {fileID: 0}
+  emptied: {fileID: 0}
+  empty: {fileID: 0}

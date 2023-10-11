@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3405b930cd52d314096aa7f84fce06f6, type: 3}
+  m_Name: GenericPlayer
+  m_EditorClassIdentifier: 
+  maxhealth: 100
+  maxdowns: 0
+  speed: 4
+  isinvincible: 0
+  deathprefab: {fileID: 6867009913480247788, guid: 19a6530f9d4646a4eb57504ee12fe5f1, type: 3}
+  hit: {fileID: 8300000, guid: 508e3833a06c189489bbf3937c7ec29b, type: 3}
+  block: {fileID: 8300000, guid: e14973dc4a752684b8d49bca146117ac, type: 3}
+  death: {fileID: 8300000, guid: 2c3b8339e0255e446924fc5e36396f53, type: 3}
+  heal: {fileID: 0}
+  background: {fileID: 8300000, guid: 06b76cbbc5be26043a02941d31731108, type: 3}

@@ -4,15 +4,13 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - enemy
-  - shield
+  - PlayerWeapon
+  - Ally
+  - AllyWeapon
+  - Enemy
+  - EnemyWeapon
   - enemybullet
-  - trigger
-  - playerweapon
-  - player
-  - pickup
-  - playerbullet
-  - explosive
+  - enemy
   layers:
   - Default
   - TransparentFX

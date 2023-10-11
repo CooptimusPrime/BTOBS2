@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2463f4a7c72242942a155e51959b9702, type: 3}
+  m_Name: Hand
+  m_EditorClassIdentifier: 
+  maxhealth: 1
+  maxdowns: 0
+  score: 0
+  lootchance: 0
+  speed: 0
+  sprintspeed: 0
+  stamina: 0
+  minattackrange: 0
+  maxattackrange: 0
+  isinvincible: 0
+  deathprefab: {fileID: 7726434884945128473, guid: d6ff5d455a769c84b80470034c93fe9a, type: 3}
+  hit: {fileID: 8300000, guid: 0194383694071604db9a061a2f3fcd95, type: 3}
+  block: {fileID: 0}
+  death: {fileID: 0}

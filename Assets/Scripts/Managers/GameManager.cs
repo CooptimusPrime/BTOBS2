@@ -2,10 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-using UnityEngine.AI;
 using UnityEngine.SceneManagement;
 using UnityEngine.XR.Interaction.Toolkit;
 
+//Need to update this to follow the event design
+
+//All health components should be linked to the game manager with their OnDeath
 public class GameManager : MonoBehaviour
 {
     public float SurvivalTime;
@@ -86,10 +88,12 @@ public class GameManager : MonoBehaviour
 
 		//update minutes, seconds, and score texts
 		MinText.text = minutes.ToString();
+
         if (seconds<10)
 		    SecText.text = "0"+seconds.ToString();
         else
             SecText.text = seconds.ToString();
+
 		FinalScoreText.text = Score.ToString();
 
 		//check playerprefs for best score and time

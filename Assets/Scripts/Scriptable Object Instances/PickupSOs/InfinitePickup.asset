@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5ced765177412e4d8d9a000345c948e, type: 3}
+  m_Name: InfinitePickup
+  m_EditorClassIdentifier: 
+  intstrength: 0
+  maxhealth: 20
+  duration: 10
+  floatstrength: 0
+  lifespan: 30
+  isinvincible: 0
+  deathprefab: {fileID: 6867009913480247788, guid: 19a6530f9d4646a4eb57504ee12fe5f1, type: 3}
+  hit: {fileID: 8300000, guid: 0194383694071604db9a061a2f3fcd95, type: 3}
+  death: {fileID: 0}
+  pickedup: {fileID: 8300000, guid: e1d2d04ad1d0f6e43a02997d50e6858b, type: 3}

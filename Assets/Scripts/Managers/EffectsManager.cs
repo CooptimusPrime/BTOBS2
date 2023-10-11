@@ -18,11 +18,11 @@ public class EffectsManager : MonoBehaviour
             RegisterNew(prefab);
     }
 
-    public void Spawn(GameObject prefab,Vector3 location)
+    public void Spawn(GameObject prefab,Vector3 location,Quaternion rotation)
     {
         Check(prefab);
         GameObject spawn=pools[prefab].GetObject();
         spawn.transform.position = location;
-        //might need to also have a rotation for later effects?
+        spawn.transform.rotation = rotation;
     }
 }

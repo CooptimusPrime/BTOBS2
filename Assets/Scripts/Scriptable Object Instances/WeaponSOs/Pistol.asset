@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f3370c883b46a848897639e1f199224, type: 3}
+  m_Name: Pistol
+  m_EditorClassIdentifier: 
+  damage: 3
+  clip: 15
+  maxammo: 120
+  consumption: 1
+  firemode: 1
+  burst: 1
+  type: 1
+  element: 0
+  piercing: 0
+  bulletspeed: 10
+  firerate: 0
+  range: 40
+  reloadtime: 3
+  accuracy: 0
+  accuracy2: 0
+  stability: 0
+  stability2: 0
+  homing: 0
+  canfire: 1
+  isexplosive: 0
+  primaryprefab: {fileID: 2245247378997252173, guid: 4f4c96d82efb8e042b69dabcf495b8e1, type: 3}
+  altprefab: {fileID: 0}
+  explosionprefab: {fileID: 0}
+  fire: {fileID: 8300000, guid: 69c3cd29165150844ab9e0fe984d9dde, type: 3}
+  reload: {fileID: 0}
+  emptied: {fileID: 0}
+  empty: {fileID: 0}

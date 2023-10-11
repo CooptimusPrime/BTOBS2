@@ -11,9 +11,9 @@ public class PickupManager : MonoBehaviour
 
 	[SerializeField] ObjectPool[] Pools;
 
-	public void SpawnPickup(int chance, Vector3 pos)
+	public void SpawnPickup(float chance, Vector3 pos)
 	{
-		int drop = Random.Range(1, 101);
+		float drop = Random.Range(0f,100f);
 		if (drop <= chance)
 		{
 			GameObject obj;

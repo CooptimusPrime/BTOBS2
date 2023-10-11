@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2463f4a7c72242942a155e51959b9702, type: 3}
+  m_Name: Shield
+  m_EditorClassIdentifier: 
+  maxhealth: 20
+  maxdowns: 0
+  score: 0
+  lootchance: 0
+  speed: 0
+  sprintspeed: 0
+  stamina: 0
+  minattackrange: 0
+  maxattackrange: 0
+  isinvincible: 0
+  deathprefab: {fileID: 2435407866772825729, guid: c0e0e995d2f3e394d87f8a94a93682d6, type: 3}
+  hit: {fileID: 8300000, guid: e14973dc4a752684b8d49bca146117ac, type: 3}
+  block: {fileID: 0}
+  death: {fileID: 0}

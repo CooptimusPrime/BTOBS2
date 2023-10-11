@@ -3,22 +3,32 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
+//change it so they check to see if they actually have a clear shot
+//aggro needs to be built in too
 public class CombatAI : MonoBehaviour
 {
-	[SerializeField] Weapon weapon;
-	[SerializeField] Transform player;
-	[SerializeField] NavMeshAgent agent;
+	/////References/////
+	Weapon weapon;
+	Transform player;
+	NavMeshAgent agent;
+	Transform muzzle;
+	Stats stats;
 
-	[SerializeField] Transform muzzle;
-
+	/////Component Variables/////
 	bool attacking;
 
-	public float minattackrange; //must get to this to attack
-	public float maxattackrange; //causes the enemy to stop shooting and then reposition
+	float minattackrange; //must get to this to attack
+	float maxattackrange; //causes the enemy to stop shooting and then reposition
 
 	void Start()
 	{
-		player = FindFirstObjectByType<PowerUps>().transform;
+		stats = GetComponent<Stats>();
+		minattackrange = stats.GetFloat("minattackrange");
+		
+		player = FindFirstObjectByType<Player>().transform;
+		agent = GetComponent<NavMeshAgent>();
+		weapon = GetComponentInChildren<Weapon>(); //what if there is more than one?
+		muzzle = transform.Find("Muzzle");
 	}
 	void Update()
 	{
@@ -55,7 +65,12 @@ public class CombatAI : MonoBehaviour
 		if (GetComponent<Kamikaze>())
 			GetComponent<Kamikaze>().Explode();
 		else if (weapon)
-			weapon.Shoot();
+		{
+			if (weapon.CheckEmpty())
+				weapon.TryReload();
+			else
+				weapon.TryFire(true);
+		}
 	}
 
 	void ChaseTarget()
